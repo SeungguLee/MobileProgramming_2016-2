@@ -6,11 +6,11 @@ Repository for example codes for the Mobile Programming class (02분반)
 - 참고교재 : 이것이 안드로이드다 (박성근의 안드로이드 앱 프로그래밍), 박성근, 한빛미디어
 
 ### Development Environment
-JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
-Android Studio: https://developer.android.com/studio/index.html
-Git: https://git-scm.com/
-SourceTree (Git GUI Client): https://www.sourcetreeapp.com/
-github: https://github.com/
+- JDK: http://www.oracle.com/technetwork/java/javase/downloads/index.html
+- Android Studio: https://developer.android.com/studio/index.html
+- Git: https://git-scm.com/
+- SourceTree (Git GUI Client): https://www.sourcetreeapp.com/
+- github: https://github.com/
 
 ### Resources
 - Git (생활코딩): https://opentutorials.org/course/1492
