@@ -72,6 +72,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button bt = (Button) findViewById(R.id.button);
+
+        // 버튼을 클릭했을 때 대화상자를 표시하도록 처리
+        // OnClickListener를 설정(무명클래스로 이벤트 리스너 객체를 생성하는 방식)하고 onClick 메소드 구현
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -84,6 +87,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button bt2 = (Button) findViewById(R.id.button2);
+
+        // 버튼을 클릭했을 때 대화상자를 표시하도록 처리
+        // OnClickListener를 설정(무명클래스로 이벤트 리스너 객체를 생성하는 방식)하고 onClick 메소드 구현
         bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -42,11 +42,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button b = (Button) findViewById(R.id.button);
+
+        // 버튼을 클릭했을 때 대화상자를 표시하도록 처리
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                // 위에서 정의한 ButtonDialogFragment 클래스의 객체를 생성
                 DialogFragment myFragment = new ButtonDialogFragment();
+
+                // show 메소드 호출을 통하여 대화상자가 화면에 표시되도록 함
                 myFragment.show(getFragmentManager(), "FinishDialog");
 
                 // FragmentManager: public abstract class
