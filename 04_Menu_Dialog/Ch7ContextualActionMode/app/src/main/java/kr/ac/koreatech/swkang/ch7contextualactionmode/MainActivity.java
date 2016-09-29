@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity
         switch (item.getItemId()) {
             case R.id.menu_share:
                 //
+                //
                 mode.finish(); // 액션이 선택되었으므로, 컨텍스트 액션 모드를 종료
                 return true; // 이벤트를 처리하였으면 true 반환
             default:
